@@ -336,6 +336,118 @@
             "BTTTouchBarFreeSpaceAfterButton" : 5,
             "BTTTouchBarItemPadding" : 0
           }
+        },
+        {
+          "BTTTouchBarButtonName" : "\/ Slash",
+          "BTTTriggerType" : 630,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "68EE09B3-3753-4B0A-99ED-A375600E7EDB",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTouchBarButtonName" : "Close Group",
+              "BTTTriggerType" : 629,
+              "BTTTriggerTypeDescription" : "Touch Bar button",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+              "BTTPredefinedActionType" : 191,
+              "BTTPredefinedActionName" : "Close currently open Touch Bar group",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "73F9F0E1-54E1-4D59-A576-6C69B31C90F5",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 0,
+              "BTTIconData" : "Standard Close Icon",
+              "BTTTriggerConfig" : {
+                "BTTTBName" : "Close Group",
+                "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+                "BTTTouchBarOnlyShowIcon" : true,
+                "BTTTouchBarItemIconHeight" : 22,
+                "BTTTouchBarItemIconWidth" : 16
+              }
+            },
+            {
+              "BTTTouchBarButtonName" : "\/me",
+              "BTTTriggerType" : 629,
+              "BTTTriggerTypeDescription" : "Touch Bar button",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+              "BTTPredefinedActionType" : 193,
+              "BTTPredefinedActionName" : "Type Custom Text",
+              "BTTStringToType" : "\/me ",
+              "BTTMoveCursorLeftBy" : "0",
+              "BTTShortcutToSend" : "44",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "82AE722E-A30A-4C79-813E-50237F73C7CA",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 1,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTTriggerType" : -1,
+                  "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+                  "BTTPredefinedActionType" : 191,
+                  "BTTPredefinedActionName" : "Close currently open Touch Bar group",
+                  "BTTEnabled2" : 1,
+                  "BTTUUID" : "227648C2-00D9-41A0-A485-09BD098985A3",
+                  "BTTEnabled" : 1,
+                  "BTTOrder" : 0
+                }
+              ]
+            },
+            {
+              "BTTTouchBarButtonName" : "\/remind",
+              "BTTTriggerType" : 629,
+              "BTTTriggerTypeDescription" : "Touch Bar button",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+              "BTTPredefinedActionType" : 193,
+              "BTTPredefinedActionName" : "Type Custom Text",
+              "BTTStringToType" : "\/remind ",
+              "BTTMoveCursorLeftBy" : "0",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "43731609-3C85-4588-8018-010746493F6F",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 2,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTTriggerType" : -1,
+                  "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+                  "BTTPredefinedActionType" : 191,
+                  "BTTPredefinedActionName" : "Close currently open Touch Bar group",
+                  "BTTEnabled2" : 1,
+                  "BTTUUID" : "2AF0A6E7-03CF-46C5-9C24-4743BC758AEA",
+                  "BTTEnabled" : 1,
+                  "BTTOrder" : 33
+                }
+              ]
+            },
+            {
+              "BTTTouchBarButtonName" : "\/status",
+              "BTTTriggerType" : 629,
+              "BTTTriggerTypeDescription" : "Touch Bar button",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+              "BTTPredefinedActionType" : 193,
+              "BTTPredefinedActionName" : "Type Custom Text",
+              "BTTStringToType" : "\/status ",
+              "BTTMoveCursorLeftBy" : "0",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "499E26D0-7531-47FA-B967-1AEA7969AEB1",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 3,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTTriggerType" : -1,
+                  "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+                  "BTTPredefinedActionType" : 191,
+                  "BTTPredefinedActionName" : "Close currently open Touch Bar group",
+                  "BTTEnabled2" : 1,
+                  "BTTUUID" : "EA3E7312-59CE-429A-A556-50626D6D5F25",
+                  "BTTEnabled" : 1,
+                  "BTTOrder" : 34
+                }
+              ]
+            }
+          ]
         }
       ]
     },
