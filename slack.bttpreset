@@ -1,5 +1,5 @@
 {
-  "BTTPresetName" : "master",
+  "BTTPresetName" : "slack",
   "BTTGeneralSettings" : {
     "disableScrollingIf3" : true,
     "BTTForceNormalClickPressure5F" : 200,
